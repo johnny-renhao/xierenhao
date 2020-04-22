@@ -1,0 +1,19 @@
+# run the pipeline on changes in master branch
+trigger:
+    - master
+  # build environment - OS
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+    - script: |
+        # remove git history and settings - to avoid inheritance
+        rm -rf .git
+        # re-initialise git
+        git init
+        git config user.name "johnny-renhao"
+        git config user.email "2932067657@qq.com"
+        git remote set-url origin https://johnny-renhao:82c4e088a6ca3f7f1ef1d3f61f4352fa11a439ac@github.com/johnny-renhao/www.xierenhao.com.git
+        git commit -m "deploy the bundle"
+        # push the commit to the public repository
+        git push origin HEAD:master --force
+      displayName: 'deploy the production bundle'
