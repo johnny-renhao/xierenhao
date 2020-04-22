@@ -1,0 +1,9 @@
+---
+title: 跳舞
+layout: post
+tags:
+- 看图作文
+---
+
+![]({{ site.baseurl }}/images/tiaowu.jpg)
+* 早上，小兔子和小蜗牛在公园里开心地玩耍。小兔子边跳舞边唱着歌，小蜗牛在边上“啦啦”地给小兔子伴奏。

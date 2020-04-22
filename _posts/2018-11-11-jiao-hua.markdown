@@ -1,0 +1,9 @@
+---
+title: 浇花
+layout: post
+tags:
+- 看图作文
+---
+
+![]({{ site.baseurl }}/images/jiao_hua.jpg)
+* 一天早上，阿清在家里的花园里浇花。她浇得差不多的时候，花儿开始对她微笑。阿清随着花儿的微笑，也笑了。
