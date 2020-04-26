@@ -19,15 +19,8 @@ steps:
 #     containerCommand: 'jekyll build --future'
 #     detached: false  
 - script: |
-    # install jekyll
-    sudo apt-get install ruby-full build-essential zlib1g-dev
-    echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-    echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-    echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-    source ~/.bashrc
-    sudo gem install jekyll bundler
-    sudo bundle exec jekyll build
 
+    pwd
     # remove git history and settings - to avoid inheritance
     rm -rf .git
     # re-initialise git
