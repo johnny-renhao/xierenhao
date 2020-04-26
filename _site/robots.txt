@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://www.xierenhao.com/sitemap.xml
