@@ -14,11 +14,12 @@ steps:
     action: 'Run an image'
     imageName: 'jekyll/builder:latest'
     volumes: |
-      $(build.sourcesDirectory):.
-      $(build.binariesDirectory):./_site
+      $(build.sourcesDirectory):/srv/jekyll
+      $(build.binariesDirectory):/srv/jekyll/_site
     containerCommand: 'jekyll build --future'
     detached: false  
 - script: |
+    pwd
     # remove git history and settings - to avoid inheritance
     rm -rf .git
     # re-initialise git
