@@ -1,16 +1,14 @@
-<!-- begin comments -->
-<div class="comments">
+<!-- begin comments use valine instead -->
+<div id="vcomments">
   <div id="disqus_thread"></div>
   <script>
-    (function () {
-      var d = document, s = d.createElement('script');
-      s.src = '//{{ site.data.settings.disqus-identifier }}.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
+      new Valine({
+          el: '#vcomments',
+          appId: '4pe62LHyDwedxhGmOpDvqruJ-gzGzoHsz',
+          appKey: '2hIObcKxP3BSea6y3KuQtnDa',
+          placeholder:'Just go go',
+          visitor: true
+      });
   </script>
-  <noscript>Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-  </noscript>
 </div>
 <!-- end comments -->
