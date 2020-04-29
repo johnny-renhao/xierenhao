@@ -14,10 +14,12 @@ steps:
     git init
     git config user.name "johnny-renhao"
     git config user.email "2932067657@qq.com"
-    git remote add origin https://johnny-renhao:82c4e088a6ca3f7f1ef1d3f61f4352fa11a439ac@github.com/johnny-renhao/www.xierenhao.com.git
+    git remote add origin1 https://johnny-renhao:82c4e088a6ca3f7f1ef1d3f61f4352fa11a439ac@github.com/johnny-renhao/www.xierenhao.com.git
+    git remote add origin2 https://ayang3000:effa81e1e1a8f72565561f27e1a98525@gitee.com/ayang3000/johnny-renhao.git
     mv _site docs
     git add docs
     git commit -m "deploy the bundle"
     # push the commit to the public repository
-    git push origin HEAD:master --force
+    git push origin1 HEAD:master --force
+    git push origin2 HEAD:master --force
   displayName: 'deploy the production bundle'
