@@ -4,6 +4,7 @@ layout: post
 date: '2019-07-19 20:01:00'
 tags:
 - 看图作文
+description: 动物王国一年一度的运木头大赛开始了，谁会获胜呢？
 ---
 
 ![]({{ site.baseurl }}/images/carry_wood_race.jpg)

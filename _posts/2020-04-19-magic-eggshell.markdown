@@ -4,6 +4,7 @@ layout: post
 date: '2020-04-19 20:01:35'
 tags:
 - 看图作文
+description: 蛋壳有什么样的妙用呢
 ---
 
 ![]({{ site.baseurl }}/images/magic_eggshell.jpg)

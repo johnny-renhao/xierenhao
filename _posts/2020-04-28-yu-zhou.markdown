@@ -3,6 +3,10 @@ title: 宇宙
 layout: post
 tags:
 - 感想
+- 时间
+- 空间
+- 死亡
+description: 关于宇宙，空间，时间，消失的想法
 ---
 
 * 始与终
